@@ -17,6 +17,13 @@
 		6ED91BC51A6C8AE70071AC18 /* Banana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED91BC41A6C8AE70071AC18 /* Banana.swift */; };
 		6ED91BC91A6C9BD40071AC18 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED91BC81A6C9BD40071AC18 /* HistoryTableViewController.swift */; };
 		6ED91BCB1A6CA3DE0071AC18 /* AnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED91BCA1A6CA3DE0071AC18 /* AnalysisViewController.swift */; };
+		711273DA1A900D4C002664C6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711273D91A900D4C002664C6 /* InterfaceController.swift */; };
+		711273DC1A900D4C002664C6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711273DB1A900D4C002664C6 /* NotificationController.swift */; };
+		711273DE1A900D4C002664C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711273DD1A900D4C002664C6 /* Images.xcassets */; };
+		711273E21A900D4C002664C6 /* BananaOptimizer WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 711273E11A900D4C002664C6 /* BananaOptimizer WatchKit App.app */; };
+		711273EA1A900D4C002664C6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711273E81A900D4C002664C6 /* Interface.storyboard */; };
+		711273EC1A900D4C002664C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711273EB1A900D4C002664C6 /* Images.xcassets */; };
+		711273EF1A900D4C002664C6 /* BananaOptimizer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 711273D41A900D4B002664C6 /* BananaOptimizer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +34,35 @@
 			remoteGlobalIDString = 6ED91B9B1A6C89940071AC18;
 			remoteInfo = Banana2;
 		};
+		711273E31A900D4C002664C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED91B941A6C89940071AC18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711273E01A900D4C002664C6;
+			remoteInfo = "BananaOptimizer WatchKit App";
+		};
+		711273ED1A900D4C002664C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED91B941A6C89940071AC18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711273D31A900D4B002664C6;
+			remoteInfo = "BananaOptimizer WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		711273F61A900D4C002664C6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				711273EF1A900D4C002664C6 /* BananaOptimizer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6ED91B9C1A6C89940071AC18 /* BananaOptimizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BananaOptimizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +79,16 @@
 		6ED91BC41A6C8AE70071AC18 /* Banana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banana.swift; sourceTree = "<group>"; };
 		6ED91BC81A6C9BD40071AC18 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		6ED91BCA1A6CA3DE0071AC18 /* AnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisViewController.swift; sourceTree = "<group>"; };
+		711273D41A900D4B002664C6 /* BananaOptimizer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BananaOptimizer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		711273D71A900D4C002664C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		711273D81A900D4C002664C6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		711273D91A900D4C002664C6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		711273DB1A900D4C002664C6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		711273DD1A900D4C002664C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		711273E11A900D4C002664C6 /* BananaOptimizer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BananaOptimizer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		711273E71A900D4C002664C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		711273E91A900D4C002664C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		711273EB1A900D4C002664C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +106,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		711273D11A900D4B002664C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -69,6 +121,8 @@
 			children = (
 				6ED91B9E1A6C89940071AC18 /* Banana2 */,
 				6ED91BB71A6C89940071AC18 /* Banana2Tests */,
+				711273D51A900D4C002664C6 /* BananaOptimizer WatchKit Extension */,
+				711273E51A900D4C002664C6 /* BananaOptimizer WatchKit App */,
 				6ED91B9D1A6C89940071AC18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +132,8 @@
 			children = (
 				6ED91B9C1A6C89940071AC18 /* BananaOptimizer.app */,
 				6ED91BB41A6C89940071AC18 /* BananaOptimizerTests.xctest */,
+				711273D41A900D4B002664C6 /* BananaOptimizer WatchKit Extension.appex */,
+				711273E11A900D4C002664C6 /* BananaOptimizer WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +180,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		711273D51A900D4C002664C6 /* BananaOptimizer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				711273D91A900D4C002664C6 /* InterfaceController.swift */,
+				711273DB1A900D4C002664C6 /* NotificationController.swift */,
+				711273DD1A900D4C002664C6 /* Images.xcassets */,
+				711273D61A900D4C002664C6 /* Supporting Files */,
+			);
+			path = "BananaOptimizer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		711273D61A900D4C002664C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				711273D71A900D4C002664C6 /* Info.plist */,
+				711273D81A900D4C002664C6 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		711273E51A900D4C002664C6 /* BananaOptimizer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				711273E81A900D4C002664C6 /* Interface.storyboard */,
+				711273EB1A900D4C002664C6 /* Images.xcassets */,
+				711273E61A900D4C002664C6 /* Supporting Files */,
+			);
+			path = "BananaOptimizer WatchKit App";
+			sourceTree = "<group>";
+		};
+		711273E61A900D4C002664C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				711273E71A900D4C002664C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,10 +228,12 @@
 				6ED91B981A6C89940071AC18 /* Sources */,
 				6ED91B991A6C89940071AC18 /* Frameworks */,
 				6ED91B9A1A6C89940071AC18 /* Resources */,
+				711273F61A900D4C002664C6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				711273EE1A900D4C002664C6 /* PBXTargetDependency */,
 			);
 			name = BananaOptimizer;
 			productName = Banana2;
@@ -162,6 +258,39 @@
 			productReference = 6ED91BB41A6C89940071AC18 /* BananaOptimizerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		711273D31A900D4B002664C6 /* BananaOptimizer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711273F51A900D4C002664C6 /* Build configuration list for PBXNativeTarget "BananaOptimizer WatchKit Extension" */;
+			buildPhases = (
+				711273D01A900D4B002664C6 /* Sources */,
+				711273D11A900D4B002664C6 /* Frameworks */,
+				711273D21A900D4B002664C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711273E41A900D4C002664C6 /* PBXTargetDependency */,
+			);
+			name = "BananaOptimizer WatchKit Extension";
+			productName = "BananaOptimizer WatchKit Extension";
+			productReference = 711273D41A900D4B002664C6 /* BananaOptimizer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		711273E01A900D4C002664C6 /* BananaOptimizer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711273F41A900D4C002664C6 /* Build configuration list for PBXNativeTarget "BananaOptimizer WatchKit App" */;
+			buildPhases = (
+				711273DF1A900D4C002664C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BananaOptimizer WatchKit App";
+			productName = "BananaOptimizer WatchKit App";
+			productReference = 711273E11A900D4C002664C6 /* BananaOptimizer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,6 +307,13 @@
 					6ED91BB31A6C89940071AC18 = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = 6ED91B9B1A6C89940071AC18;
+					};
+					711273D31A900D4B002664C6 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = ZGB6U692DK;
+					};
+					711273E01A900D4C002664C6 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -196,6 +332,8 @@
 			targets = (
 				6ED91B9B1A6C89940071AC18 /* BananaOptimizer */,
 				6ED91BB31A6C89940071AC18 /* BananaOptimizerTests */,
+				711273D31A900D4B002664C6 /* BananaOptimizer WatchKit Extension */,
+				711273E01A900D4C002664C6 /* BananaOptimizer WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -215,6 +353,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711273D21A900D4B002664C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711273E21A900D4C002664C6 /* BananaOptimizer WatchKit App.app in Resources */,
+				711273DE1A900D4C002664C6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711273DF1A900D4C002664C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711273EA1A900D4C002664C6 /* Interface.storyboard in Resources */,
+				711273EC1A900D4C002664C6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +398,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		711273D01A900D4B002664C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711273DC1A900D4C002664C6 /* NotificationController.swift in Sources */,
+				711273DA1A900D4C002664C6 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -249,6 +414,16 @@
 			isa = PBXTargetDependency;
 			target = 6ED91B9B1A6C89940071AC18 /* BananaOptimizer */;
 			targetProxy = 6ED91BB51A6C89940071AC18 /* PBXContainerItemProxy */;
+		};
+		711273E41A900D4C002664C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711273E01A900D4C002664C6 /* BananaOptimizer WatchKit App */;
+			targetProxy = 711273E31A900D4C002664C6 /* PBXContainerItemProxy */;
+		};
+		711273EE1A900D4C002664C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711273D31A900D4B002664C6 /* BananaOptimizer WatchKit Extension */;
+			targetProxy = 711273ED1A900D4C002664C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -267,6 +442,14 @@
 				6ED91BAE1A6C89940071AC18 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		711273E81A900D4C002664C6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711273E91A900D4C002664C6 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -357,6 +540,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Banana2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = BananaOptimizer;
@@ -371,6 +555,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tienray Lin (ZGB6U692DK)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Banana2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = BananaOptimizer;
@@ -413,6 +598,70 @@
 			};
 			name = Release;
 		};
+		711273F01A900D4C002664C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BananaOptimizer WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		711273F11A900D4C002664C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tienray Lin (ZGB6U692DK)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "BananaOptimizer WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		711273F21A900D4C002664C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = BananaOptimizer_WatchKit_Extension;
+				INFOPLIST_FILE = "BananaOptimizer WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		711273F31A900D4C002664C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				IBSC_MODULE = BananaOptimizer_WatchKit_Extension;
+				INFOPLIST_FILE = "BananaOptimizer WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -442,6 +691,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		711273F41A900D4C002664C6 /* Build configuration list for PBXNativeTarget "BananaOptimizer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711273F21A900D4C002664C6 /* Debug */,
+				711273F31A900D4C002664C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		711273F51A900D4C002664C6 /* Build configuration list for PBXNativeTarget "BananaOptimizer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711273F01A900D4C002664C6 /* Debug */,
+				711273F11A900D4C002664C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
